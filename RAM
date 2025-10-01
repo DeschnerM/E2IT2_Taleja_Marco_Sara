@@ -1,0 +1,40 @@
+<!-- Webseite von Marco, Arbeitsspeicher -->
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <title>RAM</title>
+    </head>
+    <body>
+        <h1>Arbeitsspeicher </h1>
+        RAM ist nicht von dauerhaft
+
+        <p>Der RAM aka <i>Arbeitsspeicher</i> ist wichtig</p>
+ 
+        AKTUELLE RAM-TYPEN IM ÜBERBLICK
+        <ul>
+            <li>DDR4 – weit verbreitet</li>
+            <li>DDR5 – höhere Leistung, geringer</li>
+            <li>Stromverbrauch</li>
+            <li>ECC-RAM – Für Server</li>
+        </ul>
+               </br>
+        <table border="3" align="center">
+            <tr>
+                <th colspan="4">Wichtige Kennzahl </th>
+            </tr>
+             <tr>
+                <td style=" background-color:black; color: white;" >Taktfrequenz</td>
+                <td colspan="2"><ul><li>tesr</li></ul></td>
+            </tr>
+             <tr>
+                <td colspan="2"><ul><li>tesr</li></ul></td>
+                <td style=" background-color:black; color: white;">Latenz (CL-Wert)</td>
+            </tr>
+                <td style=" background-color:black; color: white;">Dual-/Quad-Channel</td>
+                <td colspan="2"><ul><li>tesr</li></ul> </td>
+            </tr>
+
+            
+        </table>
+    </body>
+</html>
