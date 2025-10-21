@@ -3,7 +3,8 @@ Einbindung in einer HTMl Webseite
 <link rel="stylesheet" href="style.css">
 */
 body {
-
+background-color: antiquewhite;
+font-style: San Francisco;
 }
 
 h1 {
@@ -16,4 +17,8 @@ p {
 
 table, th, td {
 
+}
+
+.div {
+    /*leichter Hervorhebung mit abgerundet Ecken*/
 }
