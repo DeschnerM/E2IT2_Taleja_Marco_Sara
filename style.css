@@ -21,4 +21,5 @@ table, th, td {
 
 .div {
     /*leichter Hervorhebung mit abgerundet Ecken*/
+    border-radius: 5%;
 }
