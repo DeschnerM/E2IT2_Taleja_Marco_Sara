@@ -114,3 +114,10 @@ a {
 
     flex-basis: 100%;
 }
+
+
+
+.abstand_verringern * {
+  margin-top: 0;
+  margin-bottom: 0;
+}
