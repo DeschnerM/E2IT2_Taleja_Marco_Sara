@@ -1,4 +1,4 @@
-/* bro ka was chatgpt was er will von mit ich mach gerade das full selber lol hahaha-> wer das hier liest hat die kontrolle über sein leben verloren lg m
+/* 
 <link rel="stylesheet" href="style.css">
 */
 
@@ -6,8 +6,13 @@ body {
     background-color: #f5f5f7;
     color: #111;
     font-family: -apple-system, BlinkMacSystemFont, "SF Pro", "San Francisco", Arial, sans-serif;
-    margin: auto;
-    
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-areas:    "h h h h h"
+                            "m m m m m"
+                            "m m m m m"
+                            "f f f f f";
 
 }
 
@@ -30,12 +35,13 @@ p {
 .divstandart {
     background-color: rgba(255, 255, 255, 0.7);
     padding: 20px;
-    width: 250px;
+    width: 100%;
     border-radius: 16px;
     text-align: center;
 }
-.main {
-    display: flex;
+main {
+
+    display: grid;
     justify-content: center;
     margin: 40px auto;
     background-color: rgb(224, 224, 224);
@@ -44,6 +50,11 @@ p {
     width: 85%;
     flex-wrap: wrap;
     gap: 20px;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-area: m;
 
 }
 
@@ -53,7 +64,8 @@ ul {
 }
 table {
     border-spacing: 0;
-    width: 100%;
+    width:  80%;
+    margin:0 auto;
 }
 th {
     border: 1px;
@@ -67,14 +79,24 @@ td {
     background-color: black;
     color: white;
 }
-.headergrund {
-    display: flex;
+header {
+    display: grid;
+    
     background-color: #31303093;
     padding: 10px;
-    justify-content: center;
     width: 100%;
-    margin: 2;
-
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns:repeat(4, auto);
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-area: h;
+}
+main a {
+    color:black;
 }
 
 a {
@@ -87,11 +109,17 @@ a {
     height: 20px;
 }
 
-.footer {
+footer {
+    display: grid;
     text-align: center;
     font-size: smaller;
     margin-top: 45px;
     color: #acaaaa;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-area: f;
     
 }
 .footerlinie {
@@ -100,6 +128,7 @@ a {
     background-color: #ccc;
     border-radius: 10px;
     margin: auto;
+
 }
 
 .video {
@@ -115,8 +144,6 @@ a {
     flex-basis: 100%;
 }
 
-.abstand_verringern * {
-  margin-top: 0;
-  margin-bottom: 0;
+.mittig {
+  text-align: center;
 }
-
