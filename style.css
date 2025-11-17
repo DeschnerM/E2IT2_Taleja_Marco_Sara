@@ -157,6 +157,11 @@ footer {
 }
 
 
+.maingrid {
+  display: grid;
+  gap: 25px;
+  padding: 50px;
+
 .griditem {
   background-color: rgba(32, 32, 32, 0.5);
   text-align: center;
