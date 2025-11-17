@@ -1,6 +1,10 @@
 /* 
 <link rel="stylesheet" href="style.css">
 */
+html {
+    margin: 0;
+    padding: 0;
+}
 
 body {
     background-color: #f5f5f7;
@@ -35,15 +39,16 @@ p {
 .divstandart {
     background-color: rgba(255, 255, 255, 0.7);
     padding: 20px;
-    width: 100%;
+    width: 95%;
     border-radius: 16px;
     text-align: center;
+    box-shadow: 0 8px 15px;
 }
 main {
 
     display: grid;
     justify-content: center;
-    margin: 40px auto;
+    margin: 0 auto;
     background-color: rgb(224, 224, 224);
     padding: 20px;
     border-radius: 10px;
@@ -55,6 +60,7 @@ main {
     grid-row-start: 2;
     grid-row-end: 4;
     grid-area: m;
+   
 
 }
 
@@ -63,9 +69,11 @@ ul {
     padding-left: 20px;
 }
 table {
+    border-radius: 10px;
     border-spacing: 0;
     width:  80%;
     margin:0 auto;
+
 }
 th {
     border: 1px;
@@ -76,16 +84,16 @@ td {
 
 }
 .feld_dunkel {
-    background-color: black;
+    background-color: rgba(22,22,23,0.9);;
     color: white;
 }
 header {
     display: grid;
     
-    background-color: #31303093;
-    padding: 10px;
+    background-color: rgba(22,22,23,0.9);
+    padding: 22px;
     width: 100%;
-    margin: 0;
+    margin: 0 auto;
     justify-content: center;
     align-items: center;
     grid-template-columns:repeat(4, auto);
@@ -114,7 +122,7 @@ footer {
     text-align: center;
     font-size: smaller;
     margin-top: 45px;
-    color: #acaaaa;
+    color: #6d5d5d;
     grid-column-start: 1;
     grid-column-end: 6;
     grid-row-start: 4;
