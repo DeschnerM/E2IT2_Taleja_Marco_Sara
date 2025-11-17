@@ -167,12 +167,14 @@ footer {
   border-radius: 75px;
 }
 
-.item1:hover,
-.item2:hover,
-.item3:hover,
-.item4:hover,
-.item5:hover,
-.item6:hover,
-.item7:hover,  {
-  transform: scale(1.05);
+.item2 {
+  grid-area: 2 / 1 / 2 / 2;
+}
+
+.item3 {
+  grid-area: 2 / 2 / 2 / 3;
+}
+
+.item4 {
+  grid-area: 2 / 3 / 2 / 4;
 }
