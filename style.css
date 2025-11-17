@@ -155,3 +155,24 @@ footer {
 .mittig {
   text-align: center;
 }
+
+
+.griditem {
+  background-color: rgba(32, 32, 32, 0.5);
+  text-align: center;
+  padding: 25px;
+  font-size: 30px;
+  transform: scale(1);
+  transition: all 0.2s linear;
+  border-radius: 75px;
+}
+
+.item1:hover,
+.item2:hover,
+.item3:hover,
+.item4:hover,
+.item5:hover,
+.item6:hover,
+.item7:hover,  {
+  transform: scale(1.05);
+}
