@@ -179,10 +179,6 @@ footer {
   transition: all 0.2s linear;
 }
 
-.griditem:hover {
-  transform: scale(1.03); 
-  background-color: rgba(224, 224, 224, 0.95); 
-}
 
 .p2 {
   padding: 10px;
