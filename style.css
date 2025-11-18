@@ -194,3 +194,15 @@ footer {
 .item1, .item2, .item3 {
   grid-area: auto;
 }
+
+.scaled {
+    width: 320px;
+    height:300px;
+    overflow: hidden;
+}
+
+.shrink{
+    width:350px;
+    height: auto;
+}
+
