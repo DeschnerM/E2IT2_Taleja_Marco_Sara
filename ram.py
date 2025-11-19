@@ -1,3 +1,5 @@
+## pip3 install psutil ## macos
+## pip install psutil ## windows
 import psutil
 import tkinter as tk
 from tkinter import ttk
