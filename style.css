@@ -29,6 +29,10 @@ h1 {
 h2 {
     font-size: 26px;
 }
+h5 {
+    margin: 0;
+    font-size: 16px;
+}
 
 p {
     font-size: 18px;
@@ -42,7 +46,16 @@ p {
     width: 95%;
     border-radius: 16px;
     text-align: center;
-    box-shadow: 0 8px 15px;
+    box-shadow: 0 8px 13px;
+}
+
+
+.bierzwei {
+    display: grid;
+    width: 97.57%;
+    grid-template-columns: 1fr 1fr;
+    gap: 43px;
+    margin: 20px 0  ;
 }
 
 main {
