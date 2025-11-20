@@ -216,3 +216,39 @@ strong {
     width:350px;
     height: auto;
 }
+
+
+
+.cpuinfo {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 30px 10px;
+    text-align: center;
+}
+
+.cpuinfo th,
+.cpuinfo td {
+    width: 25%;
+    vertical-align: top;
+}
+
+
+.bild {
+    display: inline-block;       
+    width: 60%;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 8px 15px;
+
+    justify-self: center;        
+    grid-column: auto;           
+}
+
+.bild img {
+    display: block;
+    max-width: 100%;             
+    height: auto;
+    margin: 0 auto;
+}
