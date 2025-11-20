@@ -14,7 +14,7 @@
 	Wichtig ist, dass die Seite im Google Chrome Browser geöffnet wird, weil die Darstellung dort korrekt getestet wurde.
 	Andere Browser können Darstellungselemente eventuell anders anzeigen.
 5.	Die Webseite muss auf einem normalen Computerbildschirm geöffnet werden.
-	Die Bildschirmgröße sollte mindestens 24 Zoll betragen, und das Seitenverhältnis sollte 16:9 sein.
+	Die Bildschirmgröße sollte mindestens 14 Zoll betragen, und das Seitenverhältnis sollte 16:9 sein.
 	Die Seite ist nicht für mobile Geräte programmiert.
 	Daher sollen Smartphones, Tablets oder verkleinerte Fenster nicht verwendet werden.
 	Der Lehrer soll die Seite in der normalen Desktop-Ansicht öffnen, so wie sie von uns vorgesehen ist.
