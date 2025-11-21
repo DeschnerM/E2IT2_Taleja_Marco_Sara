@@ -1,0 +1,88 @@
+## 🧩 **Aufbau einer Grafikkarte**
+
+Eine typische Grafikkarte besteht aus:
+
+### **1. GPU (Graphics Processing Unit)**
+
+* Das "Herz" der Karte
+* Führt sehr viele parallele Berechnungen gleichzeitig aus
+* Ähnlich wie ein Spezialprozessor für Grafik und KI
+
+### **2. VRAM (Video-RAM)**
+
+* Schneller Grafikspeicher (z. B. GDDR6, GDDR6X, HBM)
+* Speichert Texturen, Shader, 3D-Modelle, Framebuffer
+* Mehr VRAM = besser für große Spiele oder professionelle Workloads
+
+### **3. Kühlung**
+
+* Lüfter oder Wasser­kühlung
+* Hält GPU und VRAM auf niedriger Temperatur
+
+### **4. Spannungsversorgung**
+
+* PCIe-Anschlüsse (6-Pin, 8-Pin, 12VHPWR usw.)
+* Grafikkarten benötigen oft viel Energie
+
+---
+
+## 💻 **Arten von Grafikkarten**
+
+### **1. Integrierte Grafikkarten (iGPU)**
+
+* Sitzen direkt in der CPU (z. B. Intel UHD, AMD Radeon iGPU)
+* Energieeffizient, ausreichend für Office, YouTube etc.
+* Nicht ideal für moderne AAA-Games
+
+### **2. Dedizierte Grafikkarten**
+
+* Separate Hardware (z. B. Nvidia GeForce, AMD Radeon)
+* Deutlich leistungsstärker
+* Ideal für Gaming, 3D, Rendering und KI
+
+### **3. Professionelle GPUs**
+
+* Nvidia Quadro / RTX A-Serie
+* AMD Radeon Pro
+* Optimiert für CAD, Simulationen, KI-Training
+
+---
+
+## 🎮 **Wofür braucht man eine starke Grafikkarte?**
+
+* Moderne Spiele (Raytracing, hohe Auflösungen)
+* Video-Rendering & Motion Design
+* 3D-Modelle (Blender, Maya)
+* KI-Berechnungen / Machine Learning
+* Virtual Reality
+* Multi-Monitor-Setups
+
+---
+
+## ⚙️ **Wichtige technische Begriffe**
+
+* **CUDA-Cores / Stream-Prozessoren:** Rechenkerne der GPU
+* **Raytracing:** Echtzeit-Lichtsimulation
+* **Tensor Cores:** Spezielle KI-Berechnungseinheiten (Nvidia)
+* **TDP:** Energiebedarf
+* **Clock Speed:** Taktfrequenz der GPU
+
+---
+
+## 📈 **Wie wählt man die richtige Grafikkarte?**
+
+Beachte:
+
+1. **Budget (300–2000€+)**
+2. **Einsatzzweck** (Gaming, KI, Video, CAD)
+3. **Monitor-Auflösung** (1080p, 1440p, 4K)
+4. **Gehäusegröße und Kühlung**
+5. **Netzteil-Leistung**
+
+---
+
+Wenn du möchtest, kann ich dir auch:
+🔹 aktuelle Modelle empfehlen
+🔹 Nvidia vs. AMD vergleichen
+🔹 die beste GPU für **Gaming**, **KI**, **Videoschnitt** oder **CAD** vorschlagen
+
